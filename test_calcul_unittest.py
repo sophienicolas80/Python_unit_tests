@@ -23,7 +23,7 @@ class TestCalcul(unittest.TestCase):
         #Vérifier si le résultat est égal à 6
         self.assertEqual(resultat, 6)
 
-    # Test de multiplication
+    # Test de multiplication test
     def test_multiplier(self):
         resultat = self.calc.multiplier(8,2)
         #Vérifier si le résultat est égal à 16
