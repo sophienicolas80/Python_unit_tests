@@ -8,7 +8,7 @@ class Calcul:
     def multiplier(self, a, b):
         return a * b
 
-        def diviser(self, a, b):
+    def diviser(self, a, b):
             if b == 0:
                 raise ZeroDivisionError("Division par zéro impossible")
-        return a / b
+            return a / b
